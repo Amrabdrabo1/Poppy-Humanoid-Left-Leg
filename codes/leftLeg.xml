@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="10/25/21||20:40:37" using="Simscape Multibody Link Version 7.0" from="SolidWorks 29.1.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="leftLeg" uid="leftLeg" version="213">
+<AssemblyFile name="leftLeg.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="hip-2" uid="hip-2" grounded="true" entityUid="hip" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.011947462879548856 -0.018465129391116941 -0.050783706723840666</Translation>
+</Transform>
+<Instance name="hip-1" uid="hip-1" grounded="true" entityUid="hip*:*left">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0965425169776533 0.030438371612445572 0.0082358059109073137</Translation>
+</Transform>
+</Instance>
+<Instance name="MX-28-1" uid="MX-28-1" entityUid="MX-28" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>0.036457483022346679 0.050938371612445577 0.0082358059109073137</Translation>
+</Transform>
+<Instance name="dynamixel_x28series-1" uid="dynamixel_x28series-1" entityUid="dynamixel_x28series*:*Défaut">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="trust_washer-1" uid="trust_washer-1" entityUid="trust_washer*:*Défaut">
+<Transform>
+<Rotation>-0.66637467261426775 0 0.74561705700595904 -0.74561705700595904 0 -0.66637467261426775 0 -1 0</Rotation>
+<Translation>0 0 0.018600000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="HN07-N101-1" uid="HN07-N101-1" entityUid="HN07-N101*:*Défaut">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>0 0 0.018500000000000003</Translation>
+</Transform>
+</Instance>
+<Instance name="WB_M2.5x8-1" uid="WB_M2.5x8-1" entityUid="WB_M2.5x8*:*ISO 4762 M2.5 x 8 --- 8N">
+<Transform>
+<Rotation>0 -0.13284299759234428 -0.99113709343898571 0 -0.99113709343898571 0.13284299759234428 -1 0 0</Rotation>
+<Translation>0 0 0.025850000000000001</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="hip_main_motor-2" uid="hip_main_motor-2" entityUid="hip_main_motor" rigid="true">
+<Transform>
+<Rotation>0.97805145481209099 0 0.20836350865723161 0 1 0 -0.20836350865723161 0 0.97805145481209099</Rotation>
+<Translation>0.048404945901895535 -0.012026757778671366 -0.042547900812933331</Translation>
+</Transform>
+<Instance name="MX-64-1" uid="MX-64-1" entityUid="MX-64" rigid="true">
+<Transform>
+<Rotation>0 0 0.99999999999999989 1 0 0 1.1102230246902723e-16 1 0</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="dynamixel_x64series-1" uid="dynamixel_x64series-1" entityUid="dynamixel_x64series*:*Défaut">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="MF128ZZ-1" uid="MF128ZZ-1" entityUid="MF128ZZ*:*Défaut">
+<Transform>
+<Rotation>1 0 0 0 0 1.0000000000000002 0 -0.99999999999999989 0</Rotation>
+<Translation>0 0 -0.019780000000000006</Translation>
+</Transform>
+</Instance>
+<Instance name="HN05-N101-1" uid="HN05-N101-1" entityUid="HN05-N101*:*Défaut">
+<Transform>
+<Rotation>1 0 -1.6653345370028508e-16 0 0 -1.0000000000000002 0 0.99999999999999989 0</Rotation>
+<Translation>0 0 0.020999999999999991</Translation>
+</Transform>
+</Instance>
+<Instance name="RX64-CAP-1" uid="RX64-CAP-1" entityUid="RX64-CAP*:*Défaut">
+<Transform>
+<Rotation>1 0 0 0 -1.0000000000000002 0 0 0 -0.99999999999999989</Rotation>
+<Translation>0 0 -0.023259999999967258</Translation>
+</Transform>
+</Instance>
+<Instance name="HN05-i101-1" uid="HN05-i101-1" entityUid="HN05-i101*:*Défaut">
+<Transform>
+<Rotation>0.99974917154288689 0 -0.022396294320964745 0.022396294320964748 0 0.99974917154288678 0 -0.99999999999999989 0</Rotation>
+<Translation>0 0 -0.0235</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="hip_z_to_hip_y-connector-1" uid="hip_z_to_hip_y-connector-1" entityUid="hip_z_to_hip_y-connector*:*Défaut">
+<Transform>
+<Rotation>0 -0.99999999999999989 0 0 0 -1 0.99999999999999989 0 0</Rotation>
+<Translation>0 0.024 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="thigh-2" uid="thigh-2" entityUid="thigh" rigid="true">
+<Transform>
+<Rotation>0.97805145481209133 -0.047601191970382713 0.20285334175938641 2.3570555229834861e-16 0.97355502922103176 0.22845263202343721 -0.20836350865723022 -0.22343842910617409 0.95218691266925815</Rotation>
+<Translation>0.034717056241964479 -0.18921377309690143 0.0028796025411275549</Translation>
+</Transform>
+<Instance name="thigh-1" uid="thigh-1" grounded="true" entityUid="thigh*:*left_MX28">
+<Transform>
+<Rotation>0 0 1 4.9960036108132044e-16 1 0 -0.99999999999999989 0 0</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="MX-28-1" uid="MX-28-1" entityUid="MX-28" rigid="true">
+<Transform>
+<Rotation>0 0 1 -6.3837823915946501e-16 -1 0 0.99999999999999989 -5.5511151231257827e-16 0</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="RX28-CAP-1" uid="RX28-CAP-1" entityUid="RX28-CAP*:*Défaut">
+<Transform>
+<Rotation>-0.99573534850633305 -0.092255708414013343 0 -0.092255708414013343 0.99573534850633305 0 0 0 -1</Rotation>
+<Translation>0 0 -0.020349999999972036</Translation>
+</Transform>
+</Instance>
+<Instance name="dynamixel_x28series-1" uid="dynamixel_x28series-1" entityUid="dynamixel_x28series*:*U">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="trust_washer-1" uid="trust_washer-1" entityUid="trust_washer*:*U">
+<Transform>
+<Rotation>-0.66637467261426775 0 0.74561705700595882 -0.74561705700595915 0 -0.66637467261426786 0 -1 0</Rotation>
+<Translation>0 0 0.018599999999999998</Translation>
+</Transform>
+</Instance>
+<Instance name="HN07-N101-1" uid="HN07-N101-1" entityUid="HN07-N101*:*U">
+<Transform>
+<Rotation>0.99999999999999978 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>0 0 0.018500000000000009</Translation>
+</Transform>
+</Instance>
+<Instance name="WB_M2.5x8-1" uid="WB_M2.5x8-1" entityUid="WB_M2.5x8*:*ISO 4762 M2.5 x 8 --- 8N">
+<Transform>
+<Rotation>0 -0.1328429975923443 -0.99113709343898559 0 -0.99113709343898582 0.13284299759234419 -1 0 0</Rotation>
+<Translation>0 0 0.025849999999999998</Translation>
+</Transform>
+</Instance>
+<Instance name="MF106ZZ-1" uid="MF106ZZ-1" entityUid="MF106ZZ*:*Défaut">
+<Transform>
+<Rotation>0.88833312086100946 0 -0.45919959318507575 -0.45919959318507553 0 -0.8883331208610098 0 1 0</Rotation>
+<Translation>0 0 -0.020350000000000007</Translation>
+</Transform>
+</Instance>
+<Instance name="WB_M2.5x8-3" uid="WB_M2.5x8-3" entityUid="WB_M2.5x8*:*ISO 4762 M2.5 x 8 --- 8N">
+<Transform>
+<Rotation>0 0.35066487935062945 -0.93650101035183519 0 0.93650101035183531 0.3506648793506294 1 0 0</Rotation>
+<Translation>0 0 -0.022649999999957253</Translation>
+</Transform>
+</Instance>
+<Instance name="HN07-i101-1" uid="HN07-i101-1" entityUid="HN07-i101*:*Défaut">
+<Transform>
+<Rotation>1 0 4.9960036108132044e-16 -3.6082248300317588e-16 0 1.0000000000000002 0 -1 0</Rotation>
+<Translation>0 0 -0.020499999999999997</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="knee_bumper-1" uid="knee_bumper-1" entityUid="knee_bumper*:*Défaut">
+<Transform>
+<Rotation>0 0 1 0 1.0000000000000002 1.1102230246251565e-16 -0.99999999999999989 0 0</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="shin-2" uid="shin-2" entityUid="shin" rigid="true">
+<Transform>
+<Rotation>-0.20791740732391076 0.013627306104115073 0.97805145481209099 0.065401596430846962 0.99785902370239488 4.9613091412936683e-16 -0.97595746982950005 0.063966126536223245 -0.20836350865723172</Rotation>
+<Translation>0.027192262295488316 -0.28500694486370065 -0.032441532689991642</Translation>
+</Transform>
+<Instance name="MX-28-1" uid="MX-28-1" entityUid="MX-28" rigid="true">
+<Transform>
+<Rotation>0.99999999999999989 -1.1102230246251565e-16 0 -1.1796119636642288e-16 -1 0 0 0 -0.99999999999999978</Rotation>
+<Translation>-0.029771435058890544 -0.082050020267343815 0</Translation>
+</Transform>
+<Instance name="RX28-CAP-1" uid="RX28-CAP-1" entityUid="RX28-CAP*:*Défaut">
+<Transform>
+<Rotation>-0.99573534850633305 -0.092255708414013246 0 -0.092255708414013246 0.99573534850633305 0 0 0 -0.99999999999999978</Rotation>
+<Translation>0 0 -0.020349999999972029</Translation>
+</Transform>
+</Instance>
+<Instance name="dynamixel_x28series-1" uid="dynamixel_x28series-1" entityUid="dynamixel_x28series*:*U">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="trust_washer-1" uid="trust_washer-1" entityUid="trust_washer*:*U">
+<Transform>
+<Rotation>-0.66637467261426753 0 0.74561705700595915 -0.74561705700595915 0 -0.66637467261426753 0 -1 0</Rotation>
+<Translation>0 0 0.018599999999999995</Translation>
+</Transform>
+</Instance>
+<Instance name="HN07-N101-1" uid="HN07-N101-1" entityUid="HN07-N101*:*U">
+<Transform>
+<Rotation>0.99999999999999989 0 0 0 0 -1 0 0.99999999999999967 0</Rotation>
+<Translation>0 0 0.018499999999999996</Translation>
+</Transform>
+</Instance>
+<Instance name="WB_M2.5x8-1" uid="WB_M2.5x8-1" entityUid="WB_M2.5x8*:*ISO 4762 M2.5 x 8 --- 8N">
+<Transform>
+<Rotation>0 -0.13284299759234425 -0.99113709343898559 0 -0.99113709343898571 0.13284299759234425 -0.99999999999999967 0 0</Rotation>
+<Translation>0 0 0.025849999999999991</Translation>
+</Transform>
+</Instance>
+<Instance name="MF106ZZ-1" uid="MF106ZZ-1" entityUid="MF106ZZ*:*Défaut">
+<Transform>
+<Rotation>0.88833312086100957 0 -0.45919959318507569 -0.45919959318507564 0 -0.88833312086100968 0 0.99999999999999989 0</Rotation>
+<Translation>0 0 -0.02035</Translation>
+</Transform>
+</Instance>
+<Instance name="WB_M2.5x8-3" uid="WB_M2.5x8-3" entityUid="WB_M2.5x8*:*ISO 4762 M2.5 x 8 --- 8N">
+<Transform>
+<Rotation>0 0.35066487935062934 -0.93650101035183553 0 0.93650101035183542 0.35066487935062945 0.99999999999999989 0 0</Rotation>
+<Translation>0 0 -0.022649999999957253</Translation>
+</Transform>
+</Instance>
+<Instance name="HN07-i101-1" uid="HN07-i101-1" entityUid="HN07-i101*:*Défaut">
+<Transform>
+<Rotation>0.99999999999999989 0 4.163336342344337e-16 -4.163336342344337e-16 0 1 0 -0.99999999999999989 0</Rotation>
+<Translation>0 0 -0.02049999999999999</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="shin-1" uid="shin-1" grounded="true" entityUid="shin*:*MX28 - MX28">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.029771435058890537 -0.08205002026734376 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="simple_foot-2" uid="simple_foot-2" entityUid="simple_foot*:*left">
+<Transform>
+<Rotation>0.97805145481209133 0.052643894694360087 0.20160350218029655 5.2670541539345796e-16 0.96755666805335605 -0.25265409972032454 -0.20836350865723036 0.24710870979570271 0.94632020680272466</Rotation>
+<Translation>0.033567168401397618 -0.40418353993355494 -0.012116542875309534</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>hip-2</Uid>
+<Uid>MX-28-1</Uid>
+</InstancePath>
+<Position>0 0 -0.027281148774910433</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>hip_main_motor-2</Uid>
+<Uid>hip_z_to_hip_y-connector-1</Uid>
+</InstancePath>
+<Position>0 0 -0.022655665224391438</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hip-2</Uid>
+<Uid>MX-28-1</Uid>
+</InstancePath>
+<Position>0 0 0.020500000000000001</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hip_main_motor-2</Uid>
+<Uid>hip_z_to_hip_y-connector-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident15">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>hip_main_motor-2</Uid>
+<Uid>MX-64-1</Uid>
+</InstancePath>
+<Position>0 0 0.031942694625765017</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>thigh-2</Uid>
+<Uid>thigh-1</Uid>
+</InstancePath>
+<Position>0 0.18199999999999997 -0.061873118798729337</Position>
+<Axis>0 -1.1796119636642288e-16 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hip_main_motor-2</Uid>
+<Uid>MX-64-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>thigh-2</Uid>
+<Uid>thigh-1</Uid>
+</InstancePath>
+<Position>0 0 0.022852894383593204</Position>
+<Axis>0 -1.1796119636642288e-16 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident19">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>thigh-2</Uid>
+<Uid>MX-28-1</Uid>
+</InstancePath>
+<Position>0 0 -0.027281148774910433</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>shin-2</Uid>
+<Uid>shin-1</Uid>
+</InstancePath>
+<Position>0 0.17999999999999997 -0.033546892999048339</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident20">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>thigh-2</Uid>
+<Uid>MX-28-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>shin-2</Uid>
+<Uid>shin-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident24">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>shin-2</Uid>
+<Uid>MX-28-1</Uid>
+</InstancePath>
+<Position>0 0 -0.027281148774910433</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>simple_foot-2</Uid>
+</InstancePath>
+<Position>-0.034482899066584194 0.035000000000000031 -0.0059000000000000025</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident25">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>shin-2</Uid>
+<Uid>MX-28-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>simple_foot-2</Uid>
+</InstancePath>
+<Position>-0.0019999999999999948 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="hip" uid="hip" version="138">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="hip.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="MX-28" uid="MX-28" version="227">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="MX-28.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="hip_main_motor" uid="hip_main_motor" version="145">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="hip_main_motor.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="MX-64" uid="MX-64" version="166">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="MX-64.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="thigh" uid="thigh" version="171">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="thigh.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="shin" uid="shin" version="154">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="shin.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="HN05-N101" uid="HN05-N101*:*Défaut" version="232">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="HN05-N101.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0039130708260234721</Mass>
+<CenterOfMass>-3.1964251134006513e-11 0.0013776626929435014 7.5040419514046783e-09</CenterOfMass>
+<Inertia>1.9392391129750794e-07 3.8084546590591819e-07 1.9392773486871014e-07 1.2767014968270766e-12 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="HN05-N101_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89411764705882346" g="0.9137254901960784" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89411764705882346" g="0.9137254901960784" b="0.92941176470588238" a="1"/>
+<Specular r="0.62588235294117633" g="0.63960784313725483" b="0.65058823529411758" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="HN05-i101" uid="HN05-i101*:*Défaut" version="193">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="HN05-i101.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0032518862084977796</Mass>
+<CenterOfMass>0 -0.0013799078475825125 0</CenterOfMass>
+<Inertia>1.8768473640420857e-07 3.7105926755488575e-07 1.8768473640420862e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="HN05-i101_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89411764705882346" g="0.9137254901960784" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89411764705882346" g="0.9137254901960784" b="0.92941176470588238" a="1"/>
+<Specular r="0.62588235294117633" g="0.63960784313725483" b="0.65058823529411758" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="HN07-N101" uid="HN07-N101*:*Défaut" version="277">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="HN07-N101.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0021249835947603091</Mass>
+<CenterOfMass>4.7623330481857822e-08 0.0012524893577058531 -6.9333484816596934e-08</CenterOfMass>
+<Inertia>6.2509902659687918e-08 1.2020952453046951e-07 6.2508831654275317e-08 3.51224842809127e-13 4.0708896404399859e-13 1.6853950601743032e-13</Inertia>
+</MassProperties>
+<GeometryFile name="HN07-N101_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89411764705882346" g="0.9137254901960784" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89411764705882346" g="0.9137254901960784" b="0.92941176470588238" a="1"/>
+<Specular r="0.62588235294117633" g="0.63960784313725483" b="0.65058823529411758" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="HN07-N101" uid="HN07-N101*:*U" version="113">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="HN07-N101.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0021249772536169895</Mass>
+<CenterOfMass>4.0559941421219014e-08 0.0012524935815167706 -6.6285614264755915e-08</CenterOfMass>
+<Inertia>6.2509936483122964e-08 1.2020947951293018e-07 6.2508723671075188e-08 3.6142226270401971e-13 2.9009515308878174e-13 1.4424524103389859e-13</Inertia>
+</MassProperties>
+<GeometryFile name="HN07-N101_U_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89411764705882346" g="0.9137254901960784" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89411764705882346" g="0.9137254901960784" b="0.92941176470588238" a="1"/>
+<Specular r="0.62588235294117633" g="0.63960784313725483" b="0.65058823529411758" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="HN07-i101" uid="HN07-i101*:*Défaut" version="193">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="HN07-i101.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0015849248543615476</Mass>
+<CenterOfMass>0 -0.0011390452945976904 0</CenterOfMass>
+<Inertia>5.7576986024324889e-08 1.1370744317940358e-07 5.7576986024324929e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="HN07-i101_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89411764705882346" g="0.9137254901960784" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89411764705882346" g="0.9137254901960784" b="0.92941176470588238" a="1"/>
+<Specular r="0.62588235294117633" g="0.63960784313725483" b="0.65058823529411758" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MF106ZZ" uid="MF106ZZ*:*Défaut" version="158">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MF106ZZ.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00043951886533370363</Mass>
+<CenterOfMass>0 0.0014116257526632702 0</CenterOfMass>
+<Inertia>4.2663618250351526e-09 7.8337000647232181e-09 4.2663618250351526e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="MF106ZZ_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89411764705882346" g="0.9137254901960784" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89411764705882346" g="0.9137254901960784" b="0.92941176470588238" a="1"/>
+<Specular r="0.62588235294117633" g="0.63960784313725483" b="0.65058823529411758" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MF128ZZ" uid="MF128ZZ*:*Défaut" version="158">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MF128ZZ.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00067417321708975527</Mass>
+<CenterOfMass>0 0.0019090588827377956 0</CenterOfMass>
+<Inertia>1.0191214885669325e-08 1.8911288217181794e-08 1.0191214885669328e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="MF128ZZ_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89411764705882346" g="0.9137254901960784" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89411764705882346" g="0.9137254901960784" b="0.92941176470588238" a="1"/>
+<Specular r="0.62588235294117633" g="0.63960784313725483" b="0.65058823529411758" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="RX28-CAP" uid="RX28-CAP*:*Défaut" version="157">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="RX28-CAP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00010176215507426351</Mass>
+<CenterOfMass>0 0 -0.00010068489342787838</CenterOfMass>
+<Inertia>4.0386860064423648e-10 4.0386860064423643e-10 7.4984737941672979e-10 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="RX28-CAP_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89411764705882346" g="0.9137254901960784" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89411764705882346" g="0.9137254901960784" b="0.92941176470588238" a="1"/>
+<Specular r="0.62588235294117633" g="0.63960784313725483" b="0.65058823529411758" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="RX64-CAP" uid="RX64-CAP*:*Défaut" version="157">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="RX64-CAP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.000238513798338423</Mass>
+<CenterOfMass>0 0 -0.00010296829988535152</CenterOfMass>
+<Inertia>1.5827442472799319e-09 1.5827442472799319e-09 2.9668043799641394e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="RX64-CAP_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89411764705882346" g="0.9137254901960784" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89411764705882346" g="0.9137254901960784" b="0.92941176470588238" a="1"/>
+<Specular r="0.62588235294117633" g="0.63960784313725483" b="0.65058823529411758" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="WB_M2.5x8" uid="WB_M2.5x8*:*ISO 4762 M2.5 x 8 --- 8N" version="118">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="WB_M2.5x8.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00020016580446874003</Mass>
+<CenterOfMass>0.0040405677312404789 0 0</CenterOfMass>
+<Inertia>3.4636085873758449e-10 2.098407301557313e-09 2.098407301557313e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="WB_M2.5x8_ISO 4762 M2.5 x 8 --- 8N_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89411764705882346" g="0.9137254901960784" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89411764705882346" g="0.9137254901960784" b="0.92941176470588238" a="1"/>
+<Specular r="0.62588235294117633" g="0.63960784313725483" b="0.65058823529411758" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="dynamixel_x28series" uid="dynamixel_x28series*:*Défaut" version="124">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="dynamixel_x28series.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.071983272021946626</Mass>
+<CenterOfMass>7.1942028321648911e-10 -0.011515522364073081 -3.1795355377816181e-05</CenterOfMass>
+<Inertia>2.0286663023659604e-05 1.2455075936250686e-05 1.7187725594127578e-05 -3.0408826369991499e-07 7.0984167972063493e-13 -1.5039982614114421e-12</Inertia>
+</MassProperties>
+<GeometryFile name="dynamixel_x28series_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="dynamixel_x28series" uid="dynamixel_x28series*:*U" version="114">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="dynamixel_x28series.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.071983272021946612</Mass>
+<CenterOfMass>7.1942028335033976e-10 -0.011515522364073081 -3.1795355377816492e-05</CenterOfMass>
+<Inertia>2.0286663023659604e-05 1.2455075936250686e-05 1.7187725594127578e-05 -3.0408826369991531e-07 7.0984167983323014e-13 -1.5039982616851007e-12</Inertia>
+</MassProperties>
+<GeometryFile name="dynamixel_x28series_U_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="dynamixel_x64series" uid="dynamixel_x64series*:*Défaut" version="159">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="dynamixel_x64series.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.12600993577691957</Mass>
+<CenterOfMass>3.8061093195446059e-10 -0.015575466607294391 -8.5526679176419797e-05</CenterOfMass>
+<Inertia>5.0799109511253208e-05 2.8572153135755426e-05 4.3394906385298181e-05 -5.1457126788330732e-07 -1.1633417416269912e-12 -2.2899607033632248e-12</Inertia>
+</MassProperties>
+<GeometryFile name="dynamixel_x64series_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.24705882352941178" g="0.24705882352941178" b="0.24705882352941178" a="1"/>
+<Diffuse r="0.24705882352941178" g="0.24705882352941178" b="0.24705882352941178" a="1"/>
+<Specular r="0.24705882352941178" g="0.24705882352941178" b="0.24705882352941178" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="hip" uid="hip*:*left" version="1525">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="hip.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0096876428547504837</Mass>
+<CenterOfMass>0.11517124274045133 0.013210621490950472 -0.00094987274356587504</CenterOfMass>
+<Inertia>5.0750757547835544e-06 6.9655383794929072e-06 4.8682189845508531e-06 -1.9687969349660161e-08 -8.9001533797569471e-07 -1.8716464859868918e-07</Inertia>
+</MassProperties>
+<GeometryFile name="hip_left_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="0.73999999999999999" g="0.73999999999999999" b="0.73999999999999999" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0.34999999999999998" g="0.34999999999999998" b="0.34999999999999998" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="hip_z_to_hip_y-connector" uid="hip_z_to_hip_y-connector*:*Défaut" version="890">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="hip_z_to_hip_y-connector.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0043940579862802578</Mass>
+<CenterOfMass>-0.0049634355693315762 -2.9476026401226527e-06 0.0031124172529503626</CenterOfMass>
+<Inertia>6.7902183721368618e-07 3.6929790215152871e-07 9.9965014124681208e-07 2.6343063782034026e-11 9.3174388313817179e-09 -2.0830582499159322e-10</Inertia>
+</MassProperties>
+<GeometryFile name="hip_z_to_hip_y-connector_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="0.73999999999999999" g="0.73999999999999999" b="0.73999999999999999" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0.34999999999999998" g="0.34999999999999998" b="0.34999999999999998" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="knee_bumper" uid="knee_bumper*:*Défaut" version="506">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="knee_bumper.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0006872121272343038</Mass>
+<CenterOfMass>-0.026831800581697721 0.0069746592441737986 1.8596379663460027e-07</CenterOfMass>
+<Inertia>4.8050875828789599e-08 5.2796005522565618e-08 6.2592447841169116e-09 -1.1198495967711619e-13 2.5248673716004134e-13 1.6553316389627556e-09</Inertia>
+</MassProperties>
+<GeometryFile name="knee_bumper_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Diffuse r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Specular r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Emissive r="0.025098039215686277" g="0.025098039215686277" b="0.025098039215686277" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="shin" uid="shin*:*MX28 - MX28" version="5693">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="shin.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.034665619045027678</Mass>
+<CenterOfMass>-0.0046759487978972327 0.1070529317212239 -5.0582246731182527e-06</CenterOfMass>
+<Inertia>0.00012201558470137722 2.2245733290527286e-05 0.00012261698814455867 6.264251120484733e-09 -3.4781937720638905e-09 5.6240156874842984e-06</Inertia>
+</MassProperties>
+<GeometryFile name="shin_MX28 - MX28_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="0.73999999999999999" g="0.73999999999999999" b="0.73999999999999999" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0.34999999999999998" g="0.34999999999999998" b="0.34999999999999998" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="simple_foot" uid="simple_foot*:*left" version="690">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="simple_foot.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.046775325452633187</Mass>
+<CenterOfMass>0.00043055718764474412 0.011659884576939712 0.020961196165812757</CenterOfMass>
+<Inertia>8.139891624412889e-05 8.8593803410368259e-05 1.7923243376486903e-05 3.2136662512471696e-06 -2.4150277277500427e-06 1.7632790745775203e-07</Inertia>
+</MassProperties>
+<GeometryFile name="simple_foot_left_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="0.73999999999999999" g="0.73999999999999999" b="0.73999999999999999" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0.34999999999999998" g="0.34999999999999998" b="0.34999999999999998" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="thigh" uid="thigh*:*left_MX28" version="2366">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="thigh.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0042735453836623563</Mass>
+<CenterOfMass>0.13632022577231895 0.28645908077815035 0.058720412751177148</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="thigh_left_MX28_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="0.73999999999999999" g="0.73999999999999999" b="0.73999999999999999" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0.34999999999999998" g="0.34999999999999998" b="0.34999999999999998" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="trust_washer" uid="trust_washer*:*Défaut" version="163">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="trust_washer.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00034768005897278228</Mass>
+<CenterOfMass>0 0.00042500000000000003 0</CenterOfMass>
+<Inertia>1.1928975256701778e-08 2.3816084039635583e-08 1.1928975256701778e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="trust_washer_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="trust_washer" uid="trust_washer*:*U" version="106">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="trust_washer.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00034768005897278228</Mass>
+<CenterOfMass>0 0.00042500000000000003 0</CenterOfMass>
+<Inertia>1.1928975256701778e-08 2.3816084039635583e-08 1.1928975256701778e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="trust_washer_U_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
